@@ -4,3 +4,4 @@
 new string
 new unsaved string
 another unsaved string
+all modified
