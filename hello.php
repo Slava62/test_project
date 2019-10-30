@@ -1,2 +1,3 @@
 <?php
-ech "Hello, world!";
+session_start();
+echo "Hellow, world!";
