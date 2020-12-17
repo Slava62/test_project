@@ -1,0 +1,15 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{81AB445B-6E86-4CD5-A98E-26301A37E5A4}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution MyTriangleTest[MyTriangleTest[CloseAUT.rxrec[]CoordinateInput.rxrec[]]]]&#xD;&#xA;Solution MyTriangleTest\MyTriangleTest\CoordinateInput.rxrec\CoordinateInput.UserCode.cs&#xD;&#xA;Solution MyTriangleTest" />
+  <StartupProject value="{81AB445B-6E86-4CD5-A98E-26301A37E5A4}" />
+</Properties>

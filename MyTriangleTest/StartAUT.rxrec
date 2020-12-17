@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1043364c-1bd7-4a4d-b801-73f7f13b869a"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTriangleTest">
+	</codegen>
+	<variables>
+		<var
+		id="55da859c-f76e-48df-b0e4-8eed875054f6"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Users\NC\STUDYGeekBrains\for job\askon\triangle\triangle\Triangle.exe
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="2428cd33-57bd-4408-8506-238d284d637a"
+	name="MyTriangleTestRepository"
+	relativepath="MyTriangleTestRepository.rxrep">
+		<codegen
+		classname="MyTriangleTestRepository"
+		namespace="MyTriangleTest">
+		</codegen>
+		<rootfolder
+		id="826225ea-a75b-4905-ae46-f5af047afc60"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

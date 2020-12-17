@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="21.57s"
+		durationms="21566"
+		type="root"
+		rid="78a8c7315e5c15a"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="NC"
+		rxversion="9.2.1.0"
+		host="LOCALHOSTMAIN"
+		osversion="Windows 7 Service Pack 1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="ru-RU"
+		dtnlanguage="ru-RU"
+		screenresolution="1280x1024"
+		timestamp="17.12.2020 15:49:46"
+		timestampiso="2020-12-17T12:49:46"
+		endtime="17.12.2020 15:50:07"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+	</activity>
+</report>

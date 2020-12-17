@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="86067e11-6a17-4639-bce5-376bfcba0440"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CoordinateInput"
+	namespace="MyTriangleTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="2428cd33-57bd-4408-8506-238d284d637a"
+	name="MyTriangleTestRepository"
+	relativepath="MyTriangleTestRepository.rxrep">
+		<codegen
+		classname="MyTriangleTestRepository"
+		namespace="MyTriangleTest">
+		</codegen>
+		<rootfolder
+		id="826225ea-a75b-4905-ae46-f5af047afc60"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CoordinateInput.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

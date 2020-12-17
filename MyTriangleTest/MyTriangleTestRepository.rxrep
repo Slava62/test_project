@@ -1,0 +1,148 @@
+﻿<repository
+id="2428cd33-57bd-4408-8506-238d284d637a"
+name="MyTriangleTestRepository">
+	<codegen
+	classname="MyTriangleTestRepository"
+	namespace="MyTriangleTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="826225ea-a75b-4905-ae46-f5af047afc60"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,qtelement,qtwindow,nativewindow"
+		capname="form"
+		id="c505e6bf-3886-4a97-8ede-30357f23f9dc"
+		isrooted="True"
+		name="TriangleSettings"
+		refpath="/form[@name='TriangleSettings']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,qtelement"
+			capname="text"
+			id="bab5f829-c673-4dd6-86eb-db76af848048"
+			name="LineEditAX"
+			refimgid="e0429e4b-483c-4409-a893-b51e764299ec"
+			refpath="/form[@name='TriangleSettings']/container[@caption='Координаты вершин']/text[@name='lineEditAX']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/?/?/text[@name='lineEditAX']
+			</item>
+			<item
+			addcaps="text,qtelement"
+			capname="text"
+			id="493ff3d3-e674-4aa0-a7cd-6e7d1b619dc2"
+			name="LineEditAY"
+			refimgid="c8899adb-a704-4d59-8766-a34db51e0410"
+			refpath="/form[@name='TriangleSettings']/container[@caption='Координаты вершин']/text[@name='lineEditAY']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/?/?/text[@name='lineEditAY']
+			</item>
+			<item
+			addcaps="text,qtelement"
+			capname="text"
+			id="4296cbc4-dce6-4cda-b521-aa1ddad506a4"
+			name="LineEditBX"
+			refimgid="75972592-b664-4b07-8175-66ebd2b64369"
+			refpath="/form[@name='TriangleSettings']/container[@caption='Координаты вершин']/text[@name='lineEditBX']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/?/?/text[@name='lineEditBX']
+			</item>
+			<item
+			addcaps="text,qtelement"
+			capname="text"
+			id="01627d39-ddec-4cdc-acc4-582e011f819d"
+			name="LineEditBY"
+			refimgid="7309ede4-e217-4012-9575-5e15c014a911"
+			refpath="/form[@name='TriangleSettings']/container[@caption='Координаты вершин']/text[@name='lineEditBY']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/?/?/text[@name='lineEditBY']
+			</item>
+			<item
+			addcaps="text,qtelement"
+			capname="text"
+			id="ebb5353f-8217-48ee-badc-89a1acc2c80a"
+			name="LineEditCX"
+			refimgid="0dfccecb-a993-4c06-8f8a-3de2d431b0e1"
+			refpath="/form[@name='TriangleSettings']/container[@caption='Координаты вершин']/text[@name='lineEditCX']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/?/?/text[@name='lineEditCX']
+			</item>
+			<item
+			addcaps="text,qtelement"
+			capname="text"
+			id="e346023d-f180-403b-968a-e6f8fdde1435"
+			name="LineEditCY"
+			refimgid="55832f65-0b49-4d06-9437-a821a03fc33c"
+			refpath="/form[@name='TriangleSettings']/container[@caption='Координаты вершин']/text[@name='lineEditCY']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/?/?/text[@name='lineEditCY']
+			</item>
+			<item
+			addcaps="button,qtelement"
+			capname="button"
+			id="a6cd4e5a-50dc-4f9d-af0a-1673db4811b7"
+			name="Построить"
+			refimgid="e73bb3fd-4f63-4d51-a474-ab553ff451a6"
+			refpath="/form[@name='TriangleSettings']/button[@text='Построить']"
+			searchtimeout="30000ms">
+				/form[@name='TriangleSettings']/button[@text='&#1055;&#1086;&#1089;&#1090;&#1088;&#1086;&#1080;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@name='TriangleSettings']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGWSURBVDhPpdDZSwJBAMfxxYdepP+oPyCKsAO7
+i4Je6kGIEgzK0sy77LLCIsM0FEmKIgjquWz1oX/CnlzvPUr7NTt5oNE98GVnBuazs8v8exhMVvwl
+k9luIMcVzF2UxVdFH2J4iMURZeO4J/PKvowQQMnw0gv+UhloZorFIm5uH6HWh9FnDGHAEsTQagCj
+Wz48JRKQRKGulqkj+qwCpTKgcV9i2nOBGe8ZtP4IdKHwz4BsnqfAYuAaKus+2uyb6Fh3oWvHUQVE
+OYGn865dRz2QKwOt5m20r25AtbWG7j071IdmCoiiSA9UmrzSNAAFgQIdrnV0up3o8djQd2TCYGCJ
+As9SPVDpAyBfTX1gQb9vGcMneoyF594/oXz1b4Fe7woG/QaMBOcxfqrDxPksBViWrSYKAjKZNNIp
+rgYUeBG+4whFGmsECvk8OI4Dl0zWgFRWAEoSgGcUpQKZi2ReouvXF57+fYHnkctlkSZvl2+Qy2Zq
+wIJhRZAXn2W2OWGxu2Bs2J/R6rYJoCQxTVT6ffJhBek/g2HeADJDdhhUDbHJAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,qtelement,qtwindow,nativewindow"
+		capname="form"
+		id="d0263f62-d80c-4828-af0f-7fde1586522c"
+		isrooted="True"
+		name="Triangle"
+		refpath="/form[@title='Triangle']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f167657c-8588-4cbe-8cfd-85a3693bf78e"
+			name="Закрыть"
+			refimgid="987d9a43-c2c4-4baf-80a3-30370f0ba50e"
+			refpath="/form[@title='Triangle']/titlebar/button[@accessiblename='Закрыть']"
+			searchtimeout="30000ms">
+				/form[@title='Triangle']/?/?/button[@accessiblename='&#1047;&#1072;&#1082;&#1088;&#1099;&#1090;&#1100;']
+			</item>
+			<basepath>
+				/form[@title='Triangle']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGWSURBVDhPpdDZSwJBAMfxxYdepP+oPyCKsAO7
+i4Je6kGIEgzK0sy77LLCIsM0FEmKIgjquWz1oX/CnlzvPUr7NTt5oNE98GVnBuazs8v8exhMVvwl
+k9luIMcVzF2UxVdFH2J4iMURZeO4J/PKvowQQMnw0gv+UhloZorFIm5uH6HWh9FnDGHAEsTQagCj
+Wz48JRKQRKGulqkj+qwCpTKgcV9i2nOBGe8ZtP4IdKHwz4BsnqfAYuAaKus+2uyb6Fh3oWvHUQVE
+OYGn865dRz2QKwOt5m20r25AtbWG7j071IdmCoiiSA9UmrzSNAAFgQIdrnV0up3o8djQd2TCYGCJ
+As9SPVDpAyBfTX1gQb9vGcMneoyF594/oXz1b4Fe7woG/QaMBOcxfqrDxPksBViWrSYKAjKZNNIp
+rgYUeBG+4whFGmsECvk8OI4Dl0zWgFRWAEoSgGcUpQKZi2ReouvXF57+fYHnkctlkSZvl2+Qy2Zq
+wIJhRZAXn2W2OWGxu2Bs2J/R6rYJoCQxTVT6ffJhBek/g2HeADJDdhhUDbHJAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

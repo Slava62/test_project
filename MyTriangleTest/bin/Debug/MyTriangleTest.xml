@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyTriangleTest</name>
+    </assembly>
+    <members>
+        <member name="T:MyTriangleTest.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTriangleTest.CloseAUT.repo">
+            <summary>
+            Holds an instance of the MyTriangleTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTriangleTest.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTriangleTest.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTriangleTest.MyTriangleTestRepository">
+            <summary>
+            The class representing the MyTriangleTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyTriangleTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.MyTriangleTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepository.TriangleSettings">
+            <summary>
+            The TriangleSettings folder.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepository.Triangle">
+            <summary>
+            The Triangle folder.
+            </summary>
+        </member>
+        <member name="T:MyTriangleTest.MyTriangleTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder">
+            <summary>
+            The TriangleSettingsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new TriangleSettings  folder.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditAX">
+            <summary>
+            The LineEditAX item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditAXInfo">
+            <summary>
+            The LineEditAX item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditAY">
+            <summary>
+            The LineEditAY item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditAYInfo">
+            <summary>
+            The LineEditAY item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditBX">
+            <summary>
+            The LineEditBX item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditBXInfo">
+            <summary>
+            The LineEditBX item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditBY">
+            <summary>
+            The LineEditBY item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditBYInfo">
+            <summary>
+            The LineEditBY item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditCX">
+            <summary>
+            The LineEditCX item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditCXInfo">
+            <summary>
+            The LineEditCX item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditCY">
+            <summary>
+            The LineEditCY item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.LineEditCYInfo">
+            <summary>
+            The LineEditCY item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.Построить">
+            <summary>
+            The Построить item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleSettingsAppFolder.ПостроитьInfo">
+            <summary>
+            The Построить item info.
+            </summary>
+        </member>
+        <member name="T:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleAppFolder">
+            <summary>
+            The TriangleAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Triangle  folder.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleAppFolder.Закрыть">
+            <summary>
+            The Закрыть item.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.MyTriangleTestRepositoryFolders.TriangleAppFolder.ЗакрытьInfo">
+            <summary>
+            The Закрыть item info.
+            </summary>
+        </member>
+        <member name="T:MyTriangleTest.CoordinateInput">
+             <summary>
+            The CoordinateInput recording.
+             </summary>
+        </member>
+        <member name="F:MyTriangleTest.CoordinateInput.repo">
+            <summary>
+            Holds an instance of the MyTriangleTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.CoordinateInput.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.CoordinateInput.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.CoordinateInput.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTriangleTest.CoordinateInput.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.CoordinateInput.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTriangleTest.CoordinateInput.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:MyTriangleTest.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:MyTriangleTest.StartAUT.repo">
+            <summary>
+            Holds an instance of the MyTriangleTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:MyTriangleTest.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyTriangleTest.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyTriangleTest.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyTriangleTest.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

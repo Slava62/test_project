@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{81AB445B-6E86-4CD5-A98E-26301A37E5A4}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MyTriangleTest</RootNamespace>
+    <AssemblyName>MyTriangleTest</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1e2962f8-eaa5-4195-8c70-79a11045af8d</id>
+    </Compile>
+    <Compile Include="CloseAUT.cs">
+      <BoundTo>81fb1d49-e7a4-4599-a6ca-b7dcf3766c28</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dc510d6b-9547-4dd9-ac1a-10d69b98acda</id>
+    </Compile>
+    <Compile Include="CloseAUT.UserCode.cs">
+      <BoundTo>81fb1d49-e7a4-4599-a6ca-b7dcf3766c28</BoundTo>
+      <DependentUpon>CloseAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8247e68b-19da-4b04-b469-0ef282b11f79</id>
+    </Compile>
+    <Compile Include="MyTriangleTestRepository.cs">
+      <BoundTo>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</BoundTo>
+      <DependentUpon>MyTriangleTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>059e9918-d2b5-4cc1-877f-655d1d2b0569</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>4eb13c90-5a7f-46aa-b692-5fe22905f41b</id>
+    </Compile>
+    <Compile Include="CoordinateInput.cs">
+      <BoundTo>71980b14-b2c7-4bcd-af2f-b287c715b390</BoundTo>
+      <DependentUpon>CoordinateInput.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9056f23f-fbc0-4fe9-9381-1042b0a07746</id>
+    </Compile>
+    <Compile Include="CoordinateInput.UserCode.cs">
+      <BoundTo>71980b14-b2c7-4bcd-af2f-b287c715b390</BoundTo>
+      <DependentUpon>CoordinateInput.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8f58043c-c18e-4e6a-bbdf-e7c3c865e28a</id>
+    </Compile>
+    <Compile Include="StartAUT.cs">
+      <BoundTo>a3779980-0840-4008-880f-7117eb5e5e09</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>995836f9-a0ee-4a98-9fbf-04b78d259f60</id>
+    </Compile>
+    <Compile Include="StartAUT.UserCode.cs">
+      <BoundTo>a3779980-0840-4008-880f-7117eb5e5e09</BoundTo>
+      <DependentUpon>StartAUT.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0e3354d-9a08-4832-a843-1a20898ede85</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>3bfdbcf1-80ed-40a8-b449-7583712f4d0c</id>
+    </None>
+    <None Include="CloseAUT.rxrec">
+      <BoundTo>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</BoundTo>
+      <id>81fb1d49-e7a4-4599-a6ca-b7dcf3766c28</id>
+      <recordtableid>0ec5cd5d-d3a2-4bbc-a4c7-798e01e1d263</recordtableid>
+    </None>
+    <None Include="CoordinateData.txt">
+      <id>ce3ac2de-a3f6-4cba-bf10-a262d740a1eb</id>
+    </None>
+    <None Include="MyTriangleTestRepository.rximg">
+      <BoundTo>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</BoundTo>
+      <DependentUpon>MyTriangleTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>1cb1d7af-3aac-4de5-940c-1b64c7e65670</id>
+    </None>
+    <None Include="MyTriangleTestRepository.rxrep">
+      <id>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</id>
+      <repoid>2428cd33-57bd-4408-8506-238d284d637a</repoid>
+      <reporootid>826225ea-a75b-4905-ae46-f5af047afc60</reporootid>
+    </None>
+    <None Include="CoordinateInput.rxrec">
+      <BoundTo>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</BoundTo>
+      <id>71980b14-b2c7-4bcd-af2f-b287c715b390</id>
+      <recordtableid>86067e11-6a17-4639-bce5-376bfcba0440</recordtableid>
+    </None>
+    <None Include="StartAUT.rxrec">
+      <BoundTo>1255f6b4-1e5e-42e3-8130-ca6ca86f9fb7</BoundTo>
+      <id>a3779980-0840-4008-880f-7117eb5e5e09</id>
+      <recordtableid>1043364c-1bd7-4a4d-b801-73f7f13b869a</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MyTriangleTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>2f414e51-6897-4f6e-8315-f6e4cd301e93</id>
+    </Content>
+    <Content Include="MyTriangleTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>6c47761a-0f05-4468-a730-e9c27ff48344</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

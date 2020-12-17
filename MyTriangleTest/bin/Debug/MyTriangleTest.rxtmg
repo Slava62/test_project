@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="MyTriangleTest"
+      id="031029d1-3bdd-4ce7-b88b-c2d918af5b17"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="MyTriangleTest"
+      id="031029d1-3bdd-4ce7-b88b-c2d918af5b17"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

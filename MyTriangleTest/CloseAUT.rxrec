@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0ec5cd5d-d3a2-4bbc-a4c7-798e01e1d263"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="MyTriangleTest">
+	</codegen>
+	<variables>
+		<var
+		id="fc01a742-e438-4128-941a-41f75b76f6df"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="5b71c7d8-a727-481d-9b1c-d780004f003a">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="2428cd33-57bd-4408-8506-238d284d637a"
+	name="MyTriangleTestRepository"
+	relativepath="MyTriangleTestRepository.rxrep">
+		<codegen
+		classname="MyTriangleTestRepository"
+		namespace="MyTriangleTest">
+		</codegen>
+		<rootfolder
+		id="826225ea-a75b-4905-ae46-f5af047afc60"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="CoordinateInput.UserCode.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="CoordinateInput.cs" />
+    <Element value="CoordinateInput.UserCode.cs" />
+    <Element value="MyTriangleTest.rxtst" />
+    <Element value="CoordinateInput.rxrec" />
+    <Element value="MyTriangleTestRepository.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

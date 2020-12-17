@@ -1,0 +1,10 @@
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\MyTriangleTest.rxtmg
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\MyTriangleTest.rxtst
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\MyTriangleTest.exe.config
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\MyTriangleTest.xml
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\MyTriangleTest.exe
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\MyTriangleTest.pdb
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\obj\x86\Debug\MyTriangleTest.csprojResolveAssemblyReference.cache
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\obj\x86\Debug\MyTriangleTest.exe
+C:\Users\NC\Documents\Ranorex\RanorexStudio Projects\MyTriangleTest\MyTriangleTest\obj\x86\Debug\MyTriangleTest.pdb
